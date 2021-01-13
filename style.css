@@ -75,11 +75,11 @@ div.exp,
 div.contact,
 div.education,
 div.hobby {
-    margin-top: 24px;
+    margin-top: 8px;
 }
 
 .sub_heading {
-    color: #0c9999;
+    color: #0cbaba;
 }
 
 .left ul,
@@ -88,8 +88,9 @@ div.hobby {
     list-style: none;
 }
 
-.left ul li {
-    margin-top: 10px;
+.left ul li,
+.right ul li {
+    margin-top: 8px;
 }
 
 div.total_width {
@@ -97,13 +98,19 @@ div.total_width {
     width: 80%;
     height: 5px;
     border-radius: 5px;
-    background-color: #bbbbbb;
+    background-color: #e0e0e0;
 }
 
 div.percentage {
     height: 5px;
     border-radius: 5px;
-    background-color: #62b4b4;
+    /* background-color: #62b4b4; */
+    background-color: #0cbaba;
+}
+
+p.exp_desc {
+    font-size: 12px;
+    padding-left: 14px;
 }
 
 div.js {
@@ -132,8 +139,4 @@ div.pg {
 
 div.mongo {
     width: 20%;
-}
-
-.right ul li {
-    margin-top: 12px;
 }
