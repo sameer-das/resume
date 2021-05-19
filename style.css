@@ -121,6 +121,10 @@ div.angular {
     width: 65%;
 }
 
+div.react {
+    width: 40%;
+}
+
 div.node {
     width: 70%;
 }
